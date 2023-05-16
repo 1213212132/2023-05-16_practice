@@ -1,0 +1,5 @@
+오늘 한거
+
+1. reset
+2. display
+3. position
