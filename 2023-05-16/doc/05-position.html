@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>겹침</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/position.css">
+
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+
+    <h1>포지션</h1>
+    <div class="gonggal">
+        lorem100000
+    </div>
+    <h2>popup</h2>
+    <div class="popup">
+        <button class="btn">close</button>
+        <img src="../images/lesedilarona01.jpg" alt="">
+
+    </div>
+    <div class="popup2">
+        <button class="btn">close</button>
+        <img src="../images/lesedilarona02.jpg" alt="">
+
+    </div>
+    <div class="popup3">
+        <button class="btn">close</button>
+        <img src="../images/lesedilarona03.jpg" alt="">
+
+    </div>
+    <script>
+        $('.btn').on('click', function () {
+
+            $(this).parent().hide()
+        }) 
+    </script>
+</body>
+
+</html>
